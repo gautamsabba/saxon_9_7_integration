@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?workdir /D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\temp\epub?><?workdir-uri file:/D:/workspace_development_branch/eXml-branch-development/samples/dita/garage/temp/epub/?><?path2project ?>
+<map class="- map/map " ditaarch:DITAArchVersion="1.2"
+    domains="(topic delay-d)                          (map mapgroup-d)                           (topic indexing-d)                          (map glossref-d)                          (topic hi-d)                           (topic ut-d)                           (topic hazard-d)                          (topic abbrev-d)                          (topic pr-d)                           (topic sw-d)                          (topic ui-d)                         "
+    title="Eclipse content aggregated by a map"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xtrc="map:1;9:50"
+    xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+    <topicref audience="expert novice" class="- map/topicref " href="tasks/garagetaskoverview.dita"
+        type="concept" xtrc="topicref:1;10:92"
+        xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+        <topicmeta class="- map/topicmeta " resourceid="taskconcept">
+            <navtitle class="- topic/navtitle ">Garage Tasks</navtitle>
+            <?ditaot gentext?>
+            <linktext class="- map/linktext ">Garage Tasks</linktext>
+            <?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">When you go into the garage, be prepared to get your
+                hands dirty!</shortdesc>
+        </topicmeta>
+        <topicref audience="expert" class="- map/topicref " href="tasks/changingtheoil.dita"
+            type="task" xtrc="topicref:2;11:83"
+            xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+            <topicmeta class="- map/topicmeta " resourceid="changeoil">
+                <navtitle class="- topic/navtitle ">Changing the oil in your car</navtitle>
+                <?ditaot gentext?>
+                <linktext class="- map/linktext ">Changing the oil in your car</linktext>
+                <?ditaot genshortdesc?>
+                <shortdesc class="- map/shortdesc ">Once every 6000 kilometers or three months,
+                    change the oil in your car.</shortdesc>
+            </topicmeta>
+        </topicref>
+        <topicref audience="expert novice" class="- map/topicref " href="tasks/organizing.dita"
+            type="task" xtrc="topicref:3;12:61"
+            xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+            <topicmeta class="- map/topicmeta " resourceid="organize">
+                <navtitle class="- topic/navtitle ">Organizing the workbench and tools</navtitle>
+                <?ditaot gentext?>
+                <linktext class="- map/linktext ">Organizing the workbench and tools</linktext>
+                <?ditaot genshortdesc?>
+                <shortdesc class="- map/shortdesc ">Keep your garage neat by organizing the things
+                    you keep in the garage.</shortdesc>
+            </topicmeta>
+        </topicref>
+        <topicref audience="expert novice" class="- map/topicref " href="tasks/shovellingsnow.dita"
+            type="task" xtrc="topicref:4;13:65"
+            xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+            <topicmeta class="- map/topicmeta " resourceid="shovellingsnow">
+                <navtitle class="- topic/navtitle ">Shovelling snow</navtitle>
+                <?ditaot gentext?>
+                <linktext class="- map/linktext ">Shovelling snow</linktext>
+                <?ditaot genshortdesc?>
+                <shortdesc class="- map/shortdesc ">Keep your driveway and sidewalks clear of snow
+                    and ice by shovelling after any snowfall.</shortdesc>
+            </topicmeta>
+        </topicref>
+        <topicref audience="expert" class="- map/topicref " href="tasks/spraypainting.dita"
+            type="task" xtrc="topicref:5;14:82"
+            xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+            <topicmeta class="- map/topicmeta " resourceid="spraypaint">
+                <navtitle class="- topic/navtitle ">Spray painting</navtitle>
+                <?ditaot gentext?>
+                <linktext class="- map/linktext ">Spray painting</linktext>
+                <?ditaot genshortdesc?>
+                <shortdesc class="- map/shortdesc ">When paint is applied using a spray nozzle, it
+                    is referred to as spray painting.</shortdesc>
+            </topicmeta>
+        </topicref>
+        <topicref audience="expert novice" class="- map/topicref " href="tasks/takinggarbage.dita"
+            type="task" xtrc="topicref:6;15:64"
+            xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+            <topicmeta class="- map/topicmeta " resourceid="takinggarbage">
+                <navtitle class="- topic/navtitle ">Taking out the garbage</navtitle>
+                <?ditaot gentext?>
+                <linktext class="- map/linktext ">Taking out the garbage</linktext>
+                <?ditaot genshortdesc?>
+                <shortdesc class="- map/shortdesc ">Regular garbage removal is necessary for the
+                    proper functioning of a home.</shortdesc>
+            </topicmeta>
+        </topicref>
+        <topicref audience="expert novice" class="- map/topicref " href="tasks/washingthecar.dita"
+            type="task" xtrc="topicref:7;16:64"
+            xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+            <topicmeta class="- map/topicmeta " resourceid="washcar">
+                <navtitle class="- topic/navtitle ">Washing the car</navtitle>
+                <?ditaot gentext?>
+                <linktext class="- map/linktext ">Washing the car</linktext>
+                <?ditaot genshortdesc?>
+                <shortdesc class="- map/shortdesc ">Keep your car looking great by washing it
+                    regularly.</shortdesc>
+            </topicmeta>
+        </topicref>
+    </topicref>
+    <topicref class="- map/topicref " href="concepts/garageconceptsoverview.dita" type="concept"
+        xtrc="topicref:8;18:74"
+        xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+        <topicmeta class="- map/topicmeta " resourceid="conceptconcept">
+            <navtitle class="- topic/navtitle ">Garage Concepts</navtitle>
+            <?ditaot gentext?>
+            <linktext class="- map/linktext ">Garage Concepts</linktext>
+            <?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">A well-stocked garage can be the envy of the
+                neighborhood.</shortdesc>
+        </topicmeta>
+        <topicref class="- map/topicref " href="concepts/lawnmower.dita" type="concept"
+            xtrc="topicref:9;19:66"
+            xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+            <topicmeta class="- map/topicmeta " resourceid="lawnmowerconcept">
+                <navtitle class="- topic/navtitle ">Lawnmower</navtitle>
+                <?ditaot gentext?>
+                <linktext class="- map/linktext ">Lawnmower</linktext>
+                <?ditaot genshortdesc?>
+                <shortdesc class="- map/shortdesc ">The lawnmower is a machine used to cut grass in
+                    the yard.</shortdesc>
+            </topicmeta>
+        </topicref>
+        <topicref class="- map/topicref " href="concepts/oil.dita" type="concept"
+            xtrc="topicref:10;20:60"
+            xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+            <topicmeta class="- map/topicmeta " resourceid="oilconcept">
+                <navtitle class="- topic/navtitle ">Oil</navtitle>
+                <?ditaot gentext?>
+                <linktext class="- map/linktext ">Oil</linktext>
+                <?ditaot genshortdesc?>
+                <shortdesc class="- map/shortdesc ">Motor oil keeps your car&apos;s engine running
+                    smoothly.</shortdesc>
+            </topicmeta>
+        </topicref>
+        <topicref class="- map/topicref " href="concepts/paint.dita" type="concept"
+            xtrc="topicref:11;21:62"
+            xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+            <topicmeta class="- map/topicmeta " resourceid="paintconcept">
+                <navtitle class="- topic/navtitle ">Paint</navtitle>
+                <?ditaot gentext?>
+                <linktext class="- map/linktext ">Paint</linktext>
+                <?ditaot genshortdesc?>
+                <shortdesc class="- map/shortdesc ">Paint is useful for refreshing the look of rooms
+                    and furniture.</shortdesc>
+            </topicmeta>
+        </topicref>
+        <topicref class="- map/topicref " href="concepts/shelving.dita" type="concept"
+            xtrc="topicref:12;22:65"
+            xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+            <topicmeta class="- map/topicmeta " resourceid="shelvingconcept">
+                <navtitle class="- topic/navtitle ">Shelving</navtitle>
+                <?ditaot gentext?>
+                <linktext class="- map/linktext ">Shelving</linktext>
+                <?ditaot genshortdesc?>
+                <shortdesc class="- map/shortdesc ">Wooden or metal shelving is useful for storing
+                    things in the garage.</shortdesc>
+            </topicmeta>
+        </topicref>
+        <topicref class="- map/topicref " href="concepts/snowshovel.dita" type="concept"
+            xtrc="topicref:13;23:67"
+            xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+            <topicmeta class="- map/topicmeta " resourceid="snowshovelconcept">
+                <navtitle class="- topic/navtitle ">Snow shovel</navtitle>
+                <?ditaot gentext?>
+                <linktext class="- map/linktext ">Snow shovel</linktext>
+                <?ditaot genshortdesc?>
+                <shortdesc class="- map/shortdesc ">Use the snow shovel to clear the drive way and
+                    side walk of snow in the winter.</shortdesc>
+            </topicmeta>
+        </topicref>
+        <topicref class="- map/topicref " href="concepts/toolbox.dita" type="concept"
+            xtrc="topicref:14;24:64"
+            xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+            <topicmeta class="- map/topicmeta " resourceid="toolboxconcept">
+                <navtitle class="- topic/navtitle ">Tool box</navtitle>
+                <?ditaot gentext?>
+                <linktext class="- map/linktext ">Tool box</linktext>
+                <?ditaot genshortdesc?>
+                <shortdesc class="- map/shortdesc ">A tool box contains many compartments for
+                    organizing tools and hardware.</shortdesc>
+            </topicmeta>
+        </topicref>
+        <topicref class="- map/topicref " href="concepts/tools.dita" type="concept"
+            xtrc="topicref:15;25:62"
+            xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+            <topicmeta class="- map/topicmeta " resourceid="toolsconcept">
+                <navtitle class="- topic/navtitle ">Tools</navtitle>
+                <?ditaot gentext?>
+                <linktext class="- map/linktext ">Tools</linktext>
+                <?ditaot genshortdesc?>
+                <shortdesc class="- map/shortdesc ">Invest in a good set of tools for doing all
+                    kinds of tasks around the house.</shortdesc>
+            </topicmeta>
+        </topicref>
+        <topicref class="- map/topicref " href="concepts/waterhose.dita" type="concept"
+            xtrc="topicref:16;26:66"
+            xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+            <topicmeta class="- map/topicmeta " resourceid="waterhoseconcept">
+                <navtitle class="- topic/navtitle ">Water hose</navtitle>
+                <?ditaot gentext?>
+                <linktext class="- map/linktext ">Water hose</linktext>
+                <?ditaot genshortdesc?>
+                <shortdesc class="- map/shortdesc ">A water hose is useful for cleaning and
+                    gardening projects around the yard.</shortdesc>
+            </topicmeta>
+        </topicref>
+        <topicref class="- map/topicref " href="concepts/wheelbarrow.dita" type="concept"
+            xtrc="topicref:17;27:68"
+            xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+            <topicmeta class="- map/topicmeta " resourceid="wheelbarrow">
+                <navtitle class="- topic/navtitle ">Wheel barrow</navtitle>
+                <?ditaot gentext?>
+                <linktext class="- map/linktext ">Wheel barrow</linktext>
+                <?ditaot genshortdesc?>
+                <shortdesc class="- map/shortdesc ">A good wheel barrow will save your back from
+                    extensive trauma when you garden.</shortdesc>
+            </topicmeta>
+        </topicref>
+        <topicref class="- map/topicref " href="concepts/workbench.dita" type="concept"
+            xtrc="topicref:18;28:66"
+            xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+            <topicmeta class="- map/topicmeta " resourceid="workbenchconcept">
+                <navtitle class="- topic/navtitle ">Workbench</navtitle>
+                <?ditaot gentext?>
+                <linktext class="- map/linktext ">Workbench</linktext>
+                <?ditaot genshortdesc?>
+                <shortdesc class="- map/shortdesc ">Use the workbench for storing tools and
+                    hardware, and for doing small projects.</shortdesc>
+            </topicmeta>
+        </topicref>
+        <topicref class="- map/topicref " href="concepts/wwfluid.dita" type="concept"
+            xtrc="topicref:19;29:64"
+            xtrf="D:\workspace_development_branch\eXml-branch-development\samples\dita\garage\hierarchy.ditamap">
+            <topicmeta class="- map/topicmeta " resourceid="wwfluidconcept">
+                <navtitle class="- topic/navtitle ">Windshield washer fluid</navtitle>
+                <?ditaot gentext?>
+                <linktext class="- map/linktext ">Windshield washer fluid</linktext>
+                <?ditaot genshortdesc?>
+                <shortdesc class="- map/shortdesc ">Windshield washer fluid is required to keep your
+                    windshield wipers functioning properly.</shortdesc>
+            </topicmeta>
+        </topicref>
+    </topicref>
+</map>
