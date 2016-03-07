@@ -41,18 +41,9 @@ public class RunTransformation {
 
 	@Override
 	public void fatalError(TransformerException ex) throws TransformerException {
-		XPathParser.NestedLocation nestedLoc = (NestedLocation) ex.getLocator();
+//		XPathParser.NestedLocation nestedLoc = (NestedLocation) ex.getLocator();
 		
-		System.out.println("Error: " + ex.getMessage());
-		System.out.println("Locator line: " + nestedLoc.getLineNumber());			
-		Location outerLoc = nestedLoc.getContainingLocation();
-		
-		System.out.println("Line number inside query exp: " + nestedLoc.getLocalLineNumber());
-		if (outerLoc != null) {
-            // Typical XSLT case
-            int line = outerLoc.getLineNumber();                
-            System.out.println("Line number in document: " + line);
-        }
+		System.out.println("Error: " + ex.getMessage());		
 	}
 
 		@Override
@@ -64,9 +55,9 @@ public class RunTransformation {
 //	private static String xslPath = "samples/transformation/BookStore.xsl";
 //	private static String xmlPath = "samples/transformation/BookStore.xml";
 	
-	private static String xslPath = "samples/validation/xsl1/t1.xsl";
-	private static String xmlPath = "samples/validation/personal-schema.xml";
-	private static String outPath = "samples/transformation/out.xml";
+	private static String xslPath = "samples/validation/bookstore/BookStore.xsl";
+	private static String xmlPath = "samples/validation/bookstore/BookStore.xml";
+	private static String outPath = "samples/validation/bookstore/out.xml";
 
 	public static void main(String[] args) throws TransformerException, InterruptedException {
 		// Create transformer
@@ -82,7 +73,7 @@ public class RunTransformation {
 		transformer.setErrorListener(errorListener);
 
 		// Create XML SAX source
-		Source xmlSource = new SAXSource(new InputSource(new File(xmlPath).toURI().toString()));
+		Source xmlSource = new StreamSource(new File(xmlPath));
 
 		// Output stream result
 		File outFile = new File(outPath);
@@ -98,6 +89,7 @@ public class RunTransformation {
 			System.out.println("Transformation done.");
 		} catch (Exception e) {
 			System.out.println("Transformation failed: " + e);
+			e.printStackTrace();
 		}
 	}
 }
